@@ -1,0 +1,9 @@
+-Datatypes can also be classes that you created
+-if you want to look at the source of keywords, libraries, built-in methods, or imports; hover to the last word of the line, then hold ctrl button and it should turn into a click-able link, then click it. it should take you to a file located inside the maven dependency folder
+-to access the h2 console in the browser you must look in the console of the eclipse IDE. Look for the line that says "H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:<some hash code>'"
+-configure the url when connecting to h2 in the browser instead of having a hash code. add this into the file "application.properties" with "spring.datasource.url=jdbc:h2:mem:testdb"
+-classes must always have an annotation
+-endpoint is the route after the slash in the url
+-@RequestParam are the key/value pairs after the "?" in the url
+ -controller links the web pages
+ -api controller links the database
